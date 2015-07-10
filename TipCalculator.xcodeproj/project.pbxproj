@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BD9A91B11B5049EC001B7150 /* TipCalculator.m in Sources */ = {isa = PBXBuildFile; fileRef = BD9A91B01B5049EC001B7150 /* TipCalculator.m */; };
 		BDD07E361B503A4800460DF1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BDD07E351B503A4800460DF1 /* main.m */; };
 		BDD07E391B503A4800460DF1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BDD07E381B503A4800460DF1 /* AppDelegate.m */; };
 		BDD07E3C1B503A4800460DF1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BDD07E3B1B503A4800460DF1 /* ViewController.m */; };
@@ -27,6 +28,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BD9A91AF1B5049EC001B7150 /* TipCalculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TipCalculator.h; sourceTree = "<group>"; };
+		BD9A91B01B5049EC001B7150 /* TipCalculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TipCalculator.m; sourceTree = "<group>"; };
 		BDD07E301B503A4800460DF1 /* TipCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TipCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDD07E341B503A4800460DF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BDD07E351B503A4800460DF1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -86,6 +89,8 @@
 				BDD07E3A1B503A4800460DF1 /* ViewController.h */,
 				BDD07E3B1B503A4800460DF1 /* ViewController.m */,
 				BDD07E3D1B503A4800460DF1 /* Main.storyboard */,
+				BD9A91AF1B5049EC001B7150 /* TipCalculator.h */,
+				BD9A91B01B5049EC001B7150 /* TipCalculator.m */,
 				BDD07E401B503A4800460DF1 /* Images.xcassets */,
 				BDD07E421B503A4800460DF1 /* LaunchScreen.xib */,
 				BDD07E331B503A4800460DF1 /* Supporting Files */,
@@ -220,6 +225,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BDD07E3C1B503A4800460DF1 /* ViewController.m in Sources */,
+				BD9A91B11B5049EC001B7150 /* TipCalculator.m in Sources */,
 				BDD07E391B503A4800460DF1 /* AppDelegate.m in Sources */,
 				BDD07E361B503A4800460DF1 /* main.m in Sources */,
 			);
@@ -418,6 +424,7 @@
 				BDD07E551B503A4800460DF1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BDD07E561B503A4800460DF1 /* Build configuration list for PBXNativeTarget "TipCalculatorTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +433,7 @@
 				BDD07E581B503A4800460DF1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
